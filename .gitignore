@@ -1,0 +1,33 @@
+
+# Moi truong Python
+.venv/
+.venv_yolo/
+venv/
+
+# File tam Python
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Mo hinh AI
+models/
+*.onnx
+*.pt
+
+# Ket qua tach nen
+outputs/
+runs/
+
+# Du lieu anh va video thu nghiem
+samples/
+
+# Thu muc TGMT con - tam thoi khong dua len
+/TGMT/
+
+# Cau hinh va file tam
+.env
+.env.*
+!.env.example
+*.log
+*.tmp
+*.part

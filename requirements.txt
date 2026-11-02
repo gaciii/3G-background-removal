@@ -1,0 +1,21 @@
+# 3G - Tách nền ảnh/video/webcam AI
+# Windows 64-bit | Python 3.10 hoac 3.11 | Khong can CUDA
+# Moi truong chinh: ONNX Runtime CPU
+
+# Xu ly mang va anh
+numpy==1.26.4
+Pillow==10.4.0
+opencv-contrib-python==4.10.0.84
+
+# Chay mo hinh U2Net-P (ONNX) bang CPU
+onnxruntime==1.19.2
+
+# Giao dien web: 3 tab Anh, Video, Webcam
+gradio==5.49.1
+
+# Thuc nghiem ablation va xuat ket qua
+pandas==2.2.3
+matplotlib==3.9.2
+
+# Tien ich hien thi tien do
+tqdm==4.66.5
